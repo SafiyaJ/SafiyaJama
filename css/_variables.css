@@ -1,0 +1,16 @@
+:root {
+    --pink-dark: #79797A;
+    --pink-light: #FAF7F7;
+    --purp: #3f3d56;
+    --purple-light: #9693BE;
+    --white: #fdfdfd;
+    --black: #3333;
+    --grey: #333;
+  
+    /* font family vars */
+    --roboto: "Roboto", sans-serif;
+    --comfortaa: "Comfortaa", cursive;
+    --dmserif: 'DM Serif Text', serif;
+    --abhayalibre: 'Abhaya Libre', serif;
+  }
+  
