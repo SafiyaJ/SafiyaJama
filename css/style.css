@@ -407,13 +407,13 @@
   
     h2 {
       font: normal 600 26px/120% var(--lato);
-      color: var(--purp);
+      color: white;
       margin: 0;
     }
   
     h3 {
       font: normal bold 24px/120% var(--lato);
-      color: var(--purp);
+      color: white;
       margin: 0;
     }
   
@@ -439,7 +439,7 @@
   
     h6 {
       font: normal lighter 14px/140% var(--lato);
-      color: #333;
+      color: white;
       padding: 1em;
       margin: 0;
     }
@@ -452,10 +452,12 @@
   
     .header_area .main-menu .navbar .navbar-brand {
       padding: 0 0.5rem;
+      margin: 20px 10px;
     }
   
     .header_area .main-menu .navbar .navbar-toggler-icon {
-      border-color: var(--purp);
+      border-color: white;
+      color: white;
     }
   
     .header_area .main-menu .nav-item .nav-link {
@@ -473,44 +475,76 @@
       padding: 1em;
     }
 
-    section.masthead h1 {
+    .section{
+      padding: 5em 2em;
+    }
+
+    .box{
       padding: 0;
     }
-  
-    section.masthead p {
+
+    .box h1{
+      font: normal 40px/120% var(--dmserif);
+    }
+
+    .box p{
+      font: normal lighter 12px/140% var(--lato);
+    }
+
+    .about h2{
+      color: white;
+    }
+
+    .about .about-self p{
       padding: 0;
+    }
+
+    .contact h2{
+      color: white;
+    }
+
+    .contacts i{
+      padding: 0.2em 0.5em;
+    }
+
+    .contacts a{
+      margin-top: 1em;
+    }
+    
+    .about .icon {
+      padding: 0.1em 0.5em ;
+      font-size: 1.5em
+    }
+
+    /* .section .carousel{
+      padding: 3em 2em;
+    } */
+
+    .carousel .projects .banner-img{
+      height: 150px;
+    }
+
+    .project-title h2{
+      text-align: center;
+    }
+
+    .tech-stack{
+      padding: 0.1em 0.5em;
+      margin: 0.1em 0.1em;
+    }
+
+    .carousel .btn{
+      margin-top: 1em;
+    }
+
+    .links {
+      margin:0;
     }
   }
   
   @media only screen and (max-width: 576px) {
-    .column {
-      padding: 6em 1em 0 1em;
-    }
-  
-    .banner-img {
-      padding: 4em 0 0 0;
-      max-width: 100%;
-      
-    }
-
-    .section{
-        margin: 4em 0;
-        padding: 2em 5em;
-        align-content: center;
-    }
-
-    .about h2{
-        margin: 0 0 1em 0;
-    }
-    
-    .about .icon{
-        /* padding: 0.2em 1em 0.2em 0.5em; */
-
-        font-size: 2em;
-    }
-    
-    .about .col-lg-3 p{
-        text-align: left;
+    .navbar-toggler-icon{
+      color: white;
     }
   }
-  
+
