@@ -200,7 +200,7 @@
                                             /* Nav css ends here*/ 
 
 .backgroundimg{
-    background: url('../assets/img/roses.jpg')no-repeat center center/cover;
+    background: url(../assets/img/roses.jpg)no-repeat center center/cover;
     background-size: cover;
     width: 100%;
     height: 100vh;
