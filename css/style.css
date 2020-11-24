@@ -302,10 +302,13 @@
     
 }                           */
 
+.projects{
+  padding-bottom: 3em;
+}
 .carousel{
   background-color: black;
-  padding-top: 0;
-  padding-bottom: 4em;
+  padding: 0 1em 4em 1em;
+
 }
 
 .details-container{
