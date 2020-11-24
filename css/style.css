@@ -437,7 +437,7 @@
     }
   
     p {
-      font: normal lighter 16px/140% var(--lato);
+      font: normal 500 16px/140% var(--lato);
       padding: 1em 0 1em 0;
       margin: 0;
     }
@@ -461,10 +461,6 @@
       color: white;
       padding: 1em;
       margin: 0;
-    }
-
-    ul{
-      position: absolute;
     }
   
     .btn a {
@@ -511,7 +507,7 @@
     }
 
     .box p{
-      font: normal lighter 12px/140% var(--lato);
+      font: normal 400 12px/140% var(--lato);
     }
 
     .about h2{
@@ -527,7 +523,7 @@
     }
 
     .contacts i{
-      padding: 0.2em 0.5em;
+      padding: 0.2em 0.3em;
     }
 
     .contacts a{
@@ -564,10 +560,27 @@
       margin:0;
     }
 
-    .aboutt .skills .col-xs-6{
-      width: 0;
+    .about .skills .col-xs-6{
+      width: 50%;
       padding-right: 0;
       padding-left: 0;
+      padding-top: 2em;
+  }
+
+    .about .skills p{
+      font: normal 300 0.8rem var(--lato);
+    }
+
+    .underline {
+      margin: 2em 0 3em 0;
+    }
+
+    .details-container{
+      padding: 3em;
+    }
+
+    .carousel-indicators {
+      padding-top: 3em;
   }
 }
   
