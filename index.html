@@ -80,13 +80,13 @@
               <div class="mr-auto"></div>
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="features.html">Projects</a>
+                  <a class="nav-link" href="#carouselExampleIndicators">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -101,9 +101,12 @@
 
       <section class="container text-center">
         <!--  h-100 d-flex justify-content-center align-items-center -->
-        <div class="row d-flex justify-content-center">
-          <span class="box align-middle">
-            <div class="col-lg-12 col-md-12 col-sm-12 my-auto">
+        <div class="row">
+          <!-- h-100 row align-items-center  -->
+          <span class="box">
+            <!-- align-middle -->
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <!-- my-auto -->
               <h1>Safiya Jama.</h1>
               <p>Designer   •   Software Developer   •   Consultant </p>
             </div>
@@ -115,10 +118,14 @@
 
     <!-- ===================== Start Aboutarea ===============================-->
 
-    <section class="about section">
+    <section class="about section" id="about">
       <div class="container">
-        <div class="row d-flex justify-content-center">
-          <h2>About</h2>
+          <div class="row d-flex justify-content-center">
+            <h2>About</h2>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="underline"></div>
+          </div>
           <div class="row  my-auto">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 my-auto about-self">
               <p>
@@ -168,7 +175,7 @@
           <h2>Projects</h2>
         </div>
         <div class="row d-flex justify-content-center">
-          <p>View projects that I have completed over the last year below:</p>
+          <div class="underline"></div>
         </div>
       </div>
       <ol class="carousel-indicators">
@@ -176,6 +183,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
       </ol>
       <div class="carousel-inner container">
         <div class="carousel-item active">
@@ -232,6 +240,57 @@
                 <div class="row">
                   <div class="links btn button">
                     <a href="https://orangeomsorg.se/"><i class="fas fa-external-link-alt"></i>View online</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row projects">
+            <div class="row project-card  d-flex justify-content-center">
+              <div class="img-container col-lg-6 my-auto  d-flex justify-content-center">
+                <img
+                  class="banner-img"
+                  src="assets/img/zenndx.png"
+                  alt="patientprogressapp"
+                  height="250"
+                />
+              </div>
+              <div class="details-container col-lg-6">
+                <div class="row project-title">
+                  <h2>Zenndx</h2>
+                </div>
+                <div class="row">
+                  <p>Type:   <b>Website</b></p>
+                </div>
+                <div class="row">
+                  <p>For:   <b>Client</b> </p>
+                </div>
+                <div class="row">
+                  <p>Role:   <b>UI Designer</b></p>
+                </div>
+                <div class="row project-description">
+                  <p>I was the project manager and developer for an online virtual
+                    hackathon. We solved the communication problem between healthcare
+                     workers and relatives of patients in the Covid-19 crisis and I 
+                     managed the project in an agile team. I, along with my team, 
+                     conducted user research, designed mockups with accessibility in 
+                     mind and used React Native to create a prototype. Within a month,
+                      we ideated and programmed
+                    an app as proof of concept and presented it to a panel of judges.<br><br>
+                    
+                    Our submission awarded us the position of the Most Innovative project 
+                    in the entire competition.</p>
+                </div>
+                <div class="row">
+                  <div class="tech-stack">
+                    <h4>Figma</h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="links btn button">
+                    <a href=""><i class="fas fa-external-link-alt"></i>View online</a>
                   </div>
                 </div>
               </div>
@@ -435,13 +494,13 @@
 
      <!-- ===================== Start Contact Us area ==========================-->
 
-     <section class="contact text-center section">
+     <section class="contact text-center section" id="contact">
       <div class="container">
         <div class="row d-flex justify-content-center">
           <h2>Get in touch!</h2>
         </div>
         <div class="row d-flex justify-content-center">
-          <p>Get in touch with:</p>
+          <div class="underline"></div>
         </div>
         <div class="contacts container">
           <div class="row d-flex justify-content-center">
@@ -450,18 +509,6 @@
           <div class="row d-flex justify-content-center">
             <a href="mailto:Safiya_Jama@hotmail.co.uk">Safiya_Jama@hotmail.co.uk</a>
           </div>
-          <!-- <div class="row d-flex justify-content-center">
-            <a href="mailto:Safiya_Jama@hotmail.co.uk"><i class="fas fa-envelope"></i>Safiya_Jama@hotmail.co.uk</a>
-          </div>
-          <div class="row d-flex justify-content-center">
-            <a href="https://github.com/SafiyaJ"><i class="fab fa-github-square"></i>www.github.com/SafiyaJ</a>
-          </div>
-          <div class="row d-flex justify-content-center">
-            <a href="https://www.linkedin.com/in/sjama/"><i class="fab fa-linkedin"></i>www.linkedin.com/in/sjama/</a>
-          </div>
-          <div class="row d-flex justify-content-center">
-            <a href="https://twitter.com/ToCodeOrNotTo"><i class="fab fa-twitter-square"></i>www.twitter.com/ToCodeOrNotTo</a>
-          </div> -->
         </div>
       </div>
     </section>
