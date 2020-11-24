@@ -458,7 +458,7 @@
     }
   
     h6 {
-      font: normal lighter 14px/140% var(--lato);
+      font: normal 500 14px/140% var(--lato);
       color:var(--primary-colour);
       padding: 1em;
       margin: 0;
