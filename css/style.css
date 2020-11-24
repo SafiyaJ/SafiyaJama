@@ -29,7 +29,7 @@
   
   body {
     width: 100%;
-    background-color: black;
+    background-color: var(--secondary-colour);
   }
 
 
@@ -48,26 +48,26 @@
   
   h1 {
     font: normal bold 2rem var(--lato);
-    color: white;
+    color:var(--primary-colour);
     line-height: 1.6em;
     margin-bottom: 0.8em;
   }
   
   h2 {
     font: normal 1.5rem var(--lato);
-    color: white;
+    color:var(--primary-colour);
     margin-bottom: 1em;
   }
   
   h3 {
     font: normal bold 1.17rem var(--lato);
-    color: white;
+    color:var(--primary-colour);
     margin-bottom: 1em;
   }
   
   p {
-    font: normal 300 1rem var(--lato);
-    color: white;
+    font: normal 500 1rem var(--lato);
+    color:var(--primary-colour);
     line-height: 140%;
     /* padding-bottom: 1.6em; */
   }
@@ -79,26 +79,26 @@
   
   h4 {
     font: normal bold 1rem var(--lato);
-    color: white;
+    color:var(--primary-colour);
     margin: 0;
   }
   
   h5 {
     font: normal light 0.83rem var(--lato);
     margin: 0;
-    color: white;
+    color:var(--primary-colour);
   }
   
   h6 {
     font: normal 0.75rem var(--lato);
-    color: white;
+    color:var(--primary-colour);
     padding: 1em;
     margin: 0;
   }
   
   li {
     font: normal light 1rem var(--lato);
-    color: white;
+    color:var(--primary-colour);
     line-height: 140%;
   }
   
@@ -117,7 +117,7 @@
   
   .btn a {
     background-color: var(--third-color);
-    color: var(--white);
+    color: var(--primary-colour);
     padding: 0.8rem 2.2rem;
     border-radius: 10px;
     font: normal bold 18px/120% var(--lato);
@@ -134,12 +134,11 @@
       align-content: center;
   }
 
-  .masthead{
-   
-    width: 100%;
-    background-color: var(--primary-colour);
-    position: relative;
-      
+  .carousel-indicators li {
+    filter: invert(100%);
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    filter: invert(100%);
   }
 
 
@@ -159,7 +158,7 @@
     font-size: xx-large;
     padding: 10 1.7rem;
     margin: 20px 35px;
-    color:var(--white);
+    color:var(--secondary-colour);
   }
   
   .header_area .main-menu .navbar {
@@ -171,18 +170,18 @@
   .header_area .main-menu .nav-item .nav-link {
     font: normal 14px/120% var(--lato);
     text-transform: uppercase;
-    color: var(--white);
+    color: var(--secondary-colour);
   }
   
   .header_area .main-menu .navbar-nav .active a {
-    background: var(--white);
+    background: var(--secondary-colour);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
   
   .header_area .main-menu .navbar-nav a:hover {
-    background: white;
+    background:var(--primary-colour);
     font-weight: 900;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -222,7 +221,7 @@
 }
 
 .box{
-    border: 4px solid var(--white);
+    border: 4px solid var(--secondary-colour);
     padding: 2.5em;
     z-index: 1;
     /* margin-top: 3.5em; */
@@ -236,13 +235,13 @@
 
 .box h1{
     font: normal 80px/120% var(--dmserif);
-    color: var(--white);
+    color: var(--secondary-colour);
     display: inline;
     /* line-height: 1.5em; */
 }
 
 .box p{
-    color: var(--white);
+    color: var(--secondary-colour);
     font-stretch: wider;
 }
 
@@ -252,7 +251,7 @@
 .underline {
   width: 10em;
   height: 0.3em;
-  background: white;
+  background:var(--primary-colour);
   border-radius: 10px;
   margin-bottom: 4em;
 }
@@ -261,7 +260,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
 }
 /* .about h2{
     margin: 0 0 3em 0;
@@ -274,7 +272,7 @@
 .about .icon{
     padding: 0.2em 1em 0.2em 0.5em;
     text-align: center;
-    color: white;
+    color:var(--primary-colour);
     font-size: 2em;
 }
 
@@ -306,7 +304,6 @@
   padding-bottom: 3em;
 }
 .carousel{
-  background-color: black;
   padding: 0 1em 4em 1em;
 
 }
@@ -334,11 +331,11 @@
 .tech-stack{
     padding:0.5em 1em;
     margin: 0.3em 0.3em 1.5em 0.3em;
-    background-color: white;
+    background-color:var(--primary-colour);
 }
 
 .tech-stack h4{
-  color: black;
+  color: var(--secondary-colour);
 }
 
 .links{
@@ -389,19 +386,17 @@
                                               
                                               /* Contact css starts here*/  
                                               
-.contact{
-  background-color: black;
-}
+
 
 .contacts i{
     padding: 0 1em 1em 1em;
     text-align: center;
-    color: white;
+    color:var(--primary-colour);
     font-size: 2em;
 }
 
 .contacts a{
-    color: white;
+    color:var(--primary-colour);
     text-decoration: underline;
     margin-top: 0.5em;
 }
@@ -429,13 +424,13 @@
   
     h2 {
       font: normal 600 26px/120% var(--lato);
-      color: white;
+      color:var(--primary-colour);
       margin: 0;
     }
   
     h3 {
       font: normal bold 24px/120% var(--lato);
-      color: white;
+      color:var(--primary-colour);
       margin: 0;
     }
   
@@ -461,7 +456,7 @@
   
     h6 {
       font: normal lighter 14px/140% var(--lato);
-      color: white;
+      color:var(--primary-colour);
       padding: 1em;
       margin: 0;
     }
@@ -478,8 +473,8 @@
     }
   
     .header_area .main-menu .navbar .navbar-toggler-icon {
-      border-color: white;
-      color: white;
+      border-color:var(--primary-colour);
+      color:var(--primary-colour);
     }
   
     .header_area .main-menu .nav-item .nav-link {
@@ -514,7 +509,7 @@
     }
 
     .about h2{
-      color: white;
+      color:var(--primary-colour);
     }
 
     .about .about-self p{
@@ -522,7 +517,7 @@
     }
 
     .contact h2{
-      color: white;
+      color:var(--primary-colour);
     }
 
     .contacts i{
