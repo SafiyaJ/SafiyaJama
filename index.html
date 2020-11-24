@@ -14,7 +14,10 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- font-awesome -->
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Font-awesome -->
     <script
       src="https://kit.fontawesome.com/2163c37111.js"
       crossorigin="anonymous"
@@ -119,7 +122,7 @@
     <!-- ===================== Start Aboutarea ===============================-->
 
     <section class="about section" id="about">
-      <div class="container">
+      <div class="container about-scroll">
           <div class="row d-flex justify-content-center">
             <h2>About</h2>
           </div>
@@ -170,347 +173,349 @@
     <!-- ===================== Start Carousel Wrapper area ======================-->
     
     <div id="carouselExampleIndicators" class="carousel section slide" data-interval="false">
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <h2>Projects</h2>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="underline"></div>
-        </div>
-      </div>
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-      </ol>
-      <div class="carousel-inner container">
-        <div class="carousel-item active">
-          <div class="row projects">
-            <div class="row project-card  d-flex justify-content-center">
-              <div class="img-container col-lg-6 my-auto  d-flex justify-content-center">
-                <img
-                  class="banner-img"
-                  src="assets/img/orangeomsorg.png"
-                  alt="patientprogressapp"
-                  height="250"
-                />
-              </div>
-              <div class="details-container col-lg-6">
-                <div class="row project-title">
-                  <h2>Orange Omsorg</h2>
-                </div>
-                <div class="row">
-                  <p>Type:   <b>Website</b></p>
-                </div>
-                <div class="row">
-                  <p>For:   <b>Client</b> </p>
-                </div>
-                <div class="row">
-                  <p>Role:   <b>Freelancer</b></p>
-                </div>
-                <div class="row project-description">
-                  <p>I was the project manager and developer for an online virtual
-                    hackathon. We solved the communication problem between healthcare
-                     workers and relatives of patients in the Covid-19 crisis and I 
-                     managed the project in an agile team. I, along with my team, 
-                     conducted user research, designed mockups with accessibility in 
-                     mind and used React Native to create a prototype. Within a month,
-                      we ideated and programmed
-                    an app as proof of concept and presented it to a panel of judges.<br><br>
-                    
-                    Our submission awarded us the position of the Most Innovative project 
-                    in the entire competition.</p>
-                </div>
-                <div class="row">
-                  <div class="tech-stack">
-                    <h4>Bootstrap</h4>
-                  </div>
-                  <div class="tech-stack">
-                    <h4>HTML</h4>
-                  </div>
-                  <div class="tech-stack">
-                    <h4>CSS</h4>
-                  </div>
-                  <div class="tech-stack">
-                    <h4>Figma</h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="links btn button">
-                    <a href="https://orangeomsorg.se/"><i class="fas fa-external-link-alt"></i>View online</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row projects">
-            <div class="row project-card  d-flex justify-content-center">
-              <div class="img-container col-lg-6 my-auto  d-flex justify-content-center">
-                <img
-                  class="banner-img"
-                  src="assets/img/zenndx.png"
-                  alt="patientprogressapp"
-                  height="250"
-                />
-              </div>
-              <div class="details-container col-lg-6">
-                <div class="row project-title">
-                  <h2>Zenndx</h2>
-                </div>
-                <div class="row">
-                  <p>Type:   <b>Website</b></p>
-                </div>
-                <div class="row">
-                  <p>For:   <b>Client</b> </p>
-                </div>
-                <div class="row">
-                  <p>Role:   <b>UI Designer</b></p>
-                </div>
-                <div class="row project-description">
-                  <p>I was the project manager and developer for an online virtual
-                    hackathon. We solved the communication problem between healthcare
-                     workers and relatives of patients in the Covid-19 crisis and I 
-                     managed the project in an agile team. I, along with my team, 
-                     conducted user research, designed mockups with accessibility in 
-                     mind and used React Native to create a prototype. Within a month,
-                      we ideated and programmed
-                    an app as proof of concept and presented it to a panel of judges.<br><br>
-                    
-                    Our submission awarded us the position of the Most Innovative project 
-                    in the entire competition.</p>
-                </div>
-                <div class="row">
-                  <div class="tech-stack">
-                    <h4>Figma</h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="links btn button">
-                    <a href=""><i class="fas fa-external-link-alt"></i>View online</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row projects">
-            <div class="row project-card  d-flex justify-content-center">
-              <div class="img-container col-lg-6 my-auto  d-flex justify-content-center">
-                <img
-                  class="banner-img"
-                  src="assets/img/patientprogressapp.png"
-                  alt="patientprogressapp"
-                  height="400"
-                />
-              </div>
-              <div class="details-container col-lg-6">
-                <div class="row project-title">
-                  <h2>Patient Progress</h2>
-                </div>
-                <div class="row">
-                  <p>Type:   <b>Mobile Application </b></p>
-                </div>
-                <div class="row">
-                  <p>For:   <b>Code First Girls, HackFromHome Hackathon(2020)</b> </p>
-                </div>
-                <div class="row">
-                  <p>Role:   <b>Project Manager | UI Designer | Developer</b></p>
-                </div>
-                <div class="row">
-                  <p>Awards:    <b> Most Innovative Award</b> </p>
-                </div>
-                <div class="row project-description">
-                  <p>I was the project manager and developer for an online virtual
-                    hackathon. We solved the communication problem between healthcare
-                     workers and relatives of patients in the Covid-19 crisis and I 
-                     managed the project in an agile team. I, along with my team, 
-                     conducted user research, designed mockups with accessibility in 
-                     mind and used React Native to create a prototype. Within a month,
-                      we ideated and programmed
-                    an app as proof of concept and presented it to a panel of judges.<br><br>
-                    
-                    Our submission awarded us the position of the Most Innovative project 
-                    in the entire competition.</p>
-                </div>
-                <div class="row">
-                  <div class="tech-stack">
-                    <h4>React Native</h4>
-                  </div>
-                  <div class="tech-stack">
-                    <h4>Expo Cli</h4>
-                  </div>
-                  <div class="tech-stack">
-                    <h4>Figma</h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="links btn button">
-                    <a href="https://github.com/SafiyaJ/patient-progress-app"><i class="fab fa-github"></i>View on Github</a>
-                  </div>
-                  <div class="links btn button">
-                    <a href="https://expo.io/@juel07/patient-progress-app"><i class="fas fa-external-link-alt"></i>View online</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row projects">
-            <div class="row project-card  d-flex justify-content-center">
-              <div class="img-container col-lg-6 my-auto  d-flex justify-content-center">
-                <img
-                  class="banner-img"
-                  src="assets/img/patientprogresswebsite.png"
-                  alt="patientprogressapp"
-                  height="250"
-                />
-              </div>
-              <div class="details-container col-lg-6">
-                <div class="row project-title">
-                  <h2>Patient Progress Website</h2>
-                </div>
-                <div class="row">
-                  <p>Type:   <b>Landing Page</b></p>
-                </div>
-                <div class="row">
-                  <p>For:   <b>Personal Project</b> </p>
-                </div>
-                <div class="row">
-                  <p>Role:   <b>UI Designer | Developer</b></p>
-                </div>
-                <div class="row project-description">
-                  <p>I was the project manager and developer for an online virtual
-                    hackathon. We solved the communication problem between healthcare
-                     workers and relatives of patients in the Covid-19 crisis and I 
-                     managed the project in an agile team. I, along with my team, 
-                     conducted user research, designed mockups with accessibility in 
-                     mind and used React Native to create a prototype. Within a month,
-                      we ideated and programmed
-                    an app as proof of concept and presented it to a panel of judges.<br><br>
-                    
-                    Our submission awarded us the position of the Most Innovative project 
-                    in the entire competition.</p>
-                </div>
-                <div class="row">
-                  <div class="tech-stack">
-                    <h4>Bootstrap</h4>
-                  </div>
-                  <div class="tech-stack">
-                    <h4>HTML</h4>
-                  </div>
-                  <div class="tech-stack">
-                    <h4>CSS</h4>
-                  </div>
-                  <div class="tech-stack">
-                    <h4>Figma</h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="links btn button">
-                    <a href="https://github.com/SafiyaJ/Patient-Progress-Website"><i class="fab fa-github"></i>View on Github</a>
-                  </div>
-                  <div class="links btn button">
-                    <a href="https://safiyaj.github.io/Patient-Progress-Website/"><i class="fas fa-external-link-alt"></i>View online</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row projects">
-            <div class="row project-card  d-flex justify-content-center">
-              <div class="img-container col-lg-6 my-auto  d-flex justify-content-center">
-                <img
-                  class="banner-img"
-                  src="assets/img/caafimaaddirect.png"
-                  alt="patientprogressapp"
-                  height="250"
-                />
-              </div>
-              <div class="details-container col-lg-6">
-                <div class="row project-title">
-                  <h2>Caafimaad Direct</h2>
-                </div>
-                <div class="row">
-                  <p>Type:   <b>Website </b></p>
-                </div>
-                <div class="row">
-                  <p>For:   <b>Somalis In Tech, Covid-19 Hackathon (2020)</b> </p>
-                </div>
-                <div class="row">
-                  <p>Role:   <b>UI Designer</b></p>
-                </div>
-                <div class="row">
-                  <p>Awards:    <b> Hackathon Winner</b> </p>
-                </div>
-                <div class="row project-description">
-                  <p>I was the project manager and developer for an online virtual
-                    hackathon. We solved the communication problem between healthcare
-                     workers and relatives of patients in the Covid-19 crisis and I 
-                     managed the project in an agile team. I, along with my team, 
-                     conducted user research, designed mockups with accessibility in 
-                     mind and used React Native to create a prototype. Within a month,
-                      we ideated and programmed
-                    an app as proof of concept and presented it to a panel of judges.<br><br>
-                    
-                    Our submission awarded us the position of the Most Innovative project 
-                    in the entire competition.</p>
-                </div>
-                <div class="row">
-                  <div class="tech-stack">
-                    <h4>Figma</h4>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="links btn button">
-                    <a href="https://github.com/somalisintech/2020-hackathon-team-6"><i class="fab fa-github"></i>View on Github</a>
-                  </div>
-                  <div class="links btn button">
-                    <a href="http://caafimaad-direct.surge.sh/"><i class="fas fa-external-link-alt"></i>View online</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-     <!-- ===================== End Carousel Wrapper area ======================-->
-
-     <!-- ===================== Start Contact Us area ==========================-->
-
-     <section class="contact text-center section" id="contact">
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <h2>Get in touch!</h2>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="underline"></div>
-        </div>
-        <div class="contacts container">
+      <div class="projects-scroll">
+        <div class="container">
           <div class="row d-flex justify-content-center">
-            <a href="https://github.com/SafiyaJ"><i class="fab fa-github"></i></a><a href="https://www.linkedin.com/in/sjama/"><i class="fab fa-linkedin-in"></i></a> <a href="https://twitter.com/ToCodeOrNotTo"><i class="fab fa-twitter"></i></a>
+            <h2>Projects</h2>
           </div>
           <div class="row d-flex justify-content-center">
-            <a href="mailto:Safiya_Jama@hotmail.co.uk">Safiya_Jama@hotmail.co.uk</a>
+            <div class="underline"></div>
           </div>
         </div>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner container">
+          <div class="carousel-item active">
+            <div class="row projects">
+              <div class="row project-card  d-flex justify-content-center">
+                <div class="img-container col-lg-6 my-auto  d-flex justify-content-center">
+                  <img
+                    class="banner-img"
+                    src="assets/img/orangeomsorg.png"
+                    alt="patientprogressapp"
+                    height="250"
+                  />
+                </div>
+                <div class="details-container col-lg-6">
+                  <div class="row project-title">
+                    <h2>Orange Omsorg</h2>
+                  </div>
+                  <div class="row">
+                    <p>Type:   <b>Website</b></p>
+                  </div>
+                  <div class="row">
+                    <p>For:   <b>Client</b> </p>
+                  </div>
+                  <div class="row">
+                    <p>Role:   <b>Freelancer</b></p>
+                  </div>
+                  <div class="row project-description">
+                    <p>I was the project manager and developer for an online virtual
+                      hackathon. We solved the communication problem between healthcare
+                      workers and relatives of patients in the Covid-19 crisis and I 
+                      managed the project in an agile team. I, along with my team, 
+                      conducted user research, designed mockups with accessibility in 
+                      mind and used React Native to create a prototype. Within a month,
+                        we ideated and programmed
+                      an app as proof of concept and presented it to a panel of judges.<br><br>
+                      
+                      Our submission awarded us the position of the Most Innovative project 
+                      in the entire competition.</p>
+                  </div>
+                  <div class="row">
+                    <div class="tech-stack">
+                      <h4>Bootstrap</h4>
+                    </div>
+                    <div class="tech-stack">
+                      <h4>HTML</h4>
+                    </div>
+                    <div class="tech-stack">
+                      <h4>CSS</h4>
+                    </div>
+                    <div class="tech-stack">
+                      <h4>Figma</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="links btn button">
+                      <a href="https://orangeomsorg.se/"><i class="fas fa-external-link-alt"></i>View online</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row projects">
+              <div class="row project-card  d-flex justify-content-center">
+                <div class="img-container col-lg-6 my-auto  d-flex justify-content-center">
+                  <img
+                    class="banner-img"
+                    src="assets/img/zenndx.png"
+                    alt="patientprogressapp"
+                    height="250"
+                  />
+                </div>
+                <div class="details-container col-lg-6">
+                  <div class="row project-title">
+                    <h2>Zenndx</h2>
+                  </div>
+                  <div class="row">
+                    <p>Type:   <b>Website</b></p>
+                  </div>
+                  <div class="row">
+                    <p>For:   <b>Client</b> </p>
+                  </div>
+                  <div class="row">
+                    <p>Role:   <b>UI Designer</b></p>
+                  </div>
+                  <div class="row project-description">
+                    <p>I was the project manager and developer for an online virtual
+                      hackathon. We solved the communication problem between healthcare
+                      workers and relatives of patients in the Covid-19 crisis and I 
+                      managed the project in an agile team. I, along with my team, 
+                      conducted user research, designed mockups with accessibility in 
+                      mind and used React Native to create a prototype. Within a month,
+                        we ideated and programmed
+                      an app as proof of concept and presented it to a panel of judges.<br><br>
+                      
+                      Our submission awarded us the position of the Most Innovative project 
+                      in the entire competition.</p>
+                  </div>
+                  <div class="row">
+                    <div class="tech-stack">
+                      <h4>Figma</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="links btn button">
+                      <a href=""><i class="fas fa-external-link-alt"></i>View online</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row projects">
+              <div class="row project-card  d-flex justify-content-center">
+                <div class="img-container col-lg-6 my-auto  d-flex justify-content-center">
+                  <img
+                    class="banner-img"
+                    src="assets/img/patientprogressapp.png"
+                    alt="patientprogressapp"
+                    height="400"
+                  />
+                </div>
+                <div class="details-container col-lg-6">
+                  <div class="row project-title">
+                    <h2>Patient Progress</h2>
+                  </div>
+                  <div class="row">
+                    <p>Type:   <b>Mobile Application </b></p>
+                  </div>
+                  <div class="row">
+                    <p>For:   <b>Code First Girls, HackFromHome Hackathon(2020)</b> </p>
+                  </div>
+                  <div class="row">
+                    <p>Role:   <b>Project Manager | UI Designer | Developer</b></p>
+                  </div>
+                  <div class="row">
+                    <p>Awards:    <b> Most Innovative Award</b> </p>
+                  </div>
+                  <div class="row project-description">
+                    <p>I was the project manager and developer for an online virtual
+                      hackathon. We solved the communication problem between healthcare
+                      workers and relatives of patients in the Covid-19 crisis and I 
+                      managed the project in an agile team. I, along with my team, 
+                      conducted user research, designed mockups with accessibility in 
+                      mind and used React Native to create a prototype. Within a month,
+                        we ideated and programmed
+                      an app as proof of concept and presented it to a panel of judges.<br><br>
+                      
+                      Our submission awarded us the position of the Most Innovative project 
+                      in the entire competition.</p>
+                  </div>
+                  <div class="row">
+                    <div class="tech-stack">
+                      <h4>React Native</h4>
+                    </div>
+                    <div class="tech-stack">
+                      <h4>Expo Cli</h4>
+                    </div>
+                    <div class="tech-stack">
+                      <h4>Figma</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="links btn button">
+                      <a href="https://github.com/SafiyaJ/patient-progress-app"><i class="fab fa-github"></i>View on Github</a>
+                    </div>
+                    <div class="links btn button">
+                      <a href="https://expo.io/@juel07/patient-progress-app"><i class="fas fa-external-link-alt"></i>View online</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row projects">
+              <div class="row project-card  d-flex justify-content-center">
+                <div class="img-container col-lg-6 my-auto  d-flex justify-content-center">
+                  <img
+                    class="banner-img"
+                    src="assets/img/patientprogresswebsite.png"
+                    alt="patientprogressapp"
+                    height="250"
+                  />
+                </div>
+                <div class="details-container col-lg-6">
+                  <div class="row project-title">
+                    <h2>Patient Progress Website</h2>
+                  </div>
+                  <div class="row">
+                    <p>Type:   <b>Landing Page</b></p>
+                  </div>
+                  <div class="row">
+                    <p>For:   <b>Personal Project</b> </p>
+                  </div>
+                  <div class="row">
+                    <p>Role:   <b>UI Designer | Developer</b></p>
+                  </div>
+                  <div class="row project-description">
+                    <p>I was the project manager and developer for an online virtual
+                      hackathon. We solved the communication problem between healthcare
+                      workers and relatives of patients in the Covid-19 crisis and I 
+                      managed the project in an agile team. I, along with my team, 
+                      conducted user research, designed mockups with accessibility in 
+                      mind and used React Native to create a prototype. Within a month,
+                        we ideated and programmed
+                      an app as proof of concept and presented it to a panel of judges.<br><br>
+                      
+                      Our submission awarded us the position of the Most Innovative project 
+                      in the entire competition.</p>
+                  </div>
+                  <div class="row">
+                    <div class="tech-stack">
+                      <h4>Bootstrap</h4>
+                    </div>
+                    <div class="tech-stack">
+                      <h4>HTML</h4>
+                    </div>
+                    <div class="tech-stack">
+                      <h4>CSS</h4>
+                    </div>
+                    <div class="tech-stack">
+                      <h4>Figma</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="links btn button">
+                      <a href="https://github.com/SafiyaJ/Patient-Progress-Website"><i class="fab fa-github"></i>View on Github</a>
+                    </div>
+                    <div class="links btn button">
+                      <a href="https://safiyaj.github.io/Patient-Progress-Website/"><i class="fas fa-external-link-alt"></i>View online</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row projects">
+              <div class="row project-card  d-flex justify-content-center">
+                <div class="img-container col-lg-6 my-auto  d-flex justify-content-center">
+                  <img
+                    class="banner-img"
+                    src="assets/img/caafimaaddirect.png"
+                    alt="patientprogressapp"
+                    height="250"
+                  />
+                </div>
+                <div class="details-container col-lg-6">
+                  <div class="row project-title">
+                    <h2>Caafimaad Direct</h2>
+                  </div>
+                  <div class="row">
+                    <p>Type:   <b>Website </b></p>
+                  </div>
+                  <div class="row">
+                    <p>For:   <b>Somalis In Tech, Covid-19 Hackathon (2020)</b> </p>
+                  </div>
+                  <div class="row">
+                    <p>Role:   <b>UI Designer</b></p>
+                  </div>
+                  <div class="row">
+                    <p>Awards:    <b> Hackathon Winner</b> </p>
+                  </div>
+                  <div class="row project-description">
+                    <p>I was the project manager and developer for an online virtual
+                      hackathon. We solved the communication problem between healthcare
+                      workers and relatives of patients in the Covid-19 crisis and I 
+                      managed the project in an agile team. I, along with my team, 
+                      conducted user research, designed mockups with accessibility in 
+                      mind and used React Native to create a prototype. Within a month,
+                        we ideated and programmed
+                      an app as proof of concept and presented it to a panel of judges.<br><br>
+                      
+                      Our submission awarded us the position of the Most Innovative project 
+                      in the entire competition.</p>
+                  </div>
+                  <div class="row">
+                    <div class="tech-stack">
+                      <h4>Figma</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="links btn button">
+                      <a href="https://github.com/somalisintech/2020-hackathon-team-6"><i class="fab fa-github"></i>View on Github</a>
+                    </div>
+                    <div class="links btn button">
+                      <a href="http://caafimaad-direct.surge.sh/"><i class="fas fa-external-link-alt"></i>View online</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+      <!-- ===================== End Carousel Wrapper area ======================-->
+
+      <!-- ===================== Start Contact Us area ==========================-->
+
+      <section class="contact text-center section" id="contact">
+        <div class="container contact-scroll">
+          <div class="row d-flex justify-content-center">
+            <h2>Get in touch!</h2>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="underline"></div>
+          </div>
+          <div class="contacts container">
+            <div class="row d-flex justify-content-center">
+              <a href="https://github.com/SafiyaJ"><i class="fab fa-github"></i></a><a href="https://www.linkedin.com/in/sjama/"><i class="fab fa-linkedin-in"></i></a> <a href="https://twitter.com/ToCodeOrNotTo"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <a href="mailto:Safiya_Jama@hotmail.co.uk">Safiya_Jama@hotmail.co.uk</a>
+            </div>
+          </div>
+       </div>
+      </div> 
     </section>
 
 
@@ -544,5 +549,24 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      ScrollReveal().reveal('.about-scroll', {
+        duration: 2000,
+        origin:'bottom',
+        distance:'300px'
+      });
+      ScrollReveal().reveal('.projects-scroll', {
+        duration: 2000,
+        origin:'bottom',
+        distance:'300px'
+      });
+      ScrollReveal().reveal('.contact-scroll', {
+        duration: 2000,
+        origin:'bottom',
+        distance:'300px'
+      });
+    </script>
+  
   </body>
 </html>
