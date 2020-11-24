@@ -9,12 +9,13 @@
   @import url(/css/_variables.css);
   
   :root {
-    --primary-colour: #E7E4E4;
-    --secondary-colour: #FAF7F7;
-    --button-color: #C4C4C4;
+    --primary-colour: 	#333333;
+    --secondary-colour: white;
+    --third-color: #C4C4C4;
     --white: #fdfdfd;
     --black: #3333;
     --grey: #535461;
+    --text-color: #535461;
   
     /* font family vars */
     --roboto: "Roboto", sans-serif;
@@ -22,6 +23,7 @@
     --dmserif: 'DM Serif Text', serif;
     --abhayalibre: 'Abhaya Libre', serif;
   }
+  
 
   html {
     width: 100%;
@@ -181,7 +183,7 @@
   }
   
   .header_area .main-menu .navbar-nav a:hover {
-    background:var(--primary-colour);
+    background:var(--secondary-colour);
     font-weight: 900;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
